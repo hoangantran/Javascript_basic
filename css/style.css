@@ -1,0 +1,39 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+div.form_sinhvien, div.list_student{
+	width: 500px;
+	border: solid 1px black;
+	margin:25px;
+	padding:10px;
+	float: left;
+}
+
+div.list_student{
+	width: 600px;
+}
+
+h3{
+	padding:0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+div.form_sinhvien label{
+	width: 100px;
+	float: left;
+}
+
+div.form_sinhvien input[type="text"], button{
+	border: solid 1px black;
+	margin-bottom: 10px;
+	width: 150px;
+	padding:5px;
+	border-radius: 5px;
+}
+
+.error{
+	color: red;
+}
